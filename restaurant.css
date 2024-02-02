@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000;
+}
+
+/* HERO IMAGE */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("assets/Mockup\ restaurant\ 2.png")
+}
+
+.hero-text h1 {
+    color: white;
+    font-size: 8rem;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: rgba(255, 255, 255, 0.9) 0px 0px 26px;
+    text-align: center;
+
+}
+
+.figma {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+
+}
+
+
+.figma iframe {
+    border-radius: 30px;
+    padding: 35px;
+    margin: 50px;
+}

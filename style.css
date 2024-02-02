@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: #131313;
+}
+
+
+/* GIF DE FOND */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("assets/Design\ sans\ titre\ \(1\).gif");
+
+}
+
+
+.hero-text h1 {
+    color: white;
+    font-size: 8rem;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: rgba(255, 255, 255, 0.9) 0px 0px 26px;
+    text-align: center;
+
+}
+
+.hero-text p {
+    color: white;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+}
+
+
+#homebar {
+    font-family: 'Poppins', sans-serif;
+    position: sticky;
+    z-index: 999;
+    bottom: 30px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.705);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#homebar a {
+    text-align: right;
+    padding: .5em;
+    font-size: 20px;
+    color: black;
+
+}
+
+#homebar a:hover {
+    text-shadow: rgba(125, 14, 189, 0.925) 0px 0px 26px;
+}
+
+.sticky-nav {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.sticky-nav.scrolled {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    position: fixed;
+    max-width: 30rem;
+    width: 90vw;
+    margin: 0 auto;
+    bottom: 2rem;
+    left: 0;
+    right: 0;
+    border-radius: 25px;
+
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+a {
+    text-decoration: none;
+    padding: 1.2em .5em;
+
+}
+
+
+.projets img {
+    height: 700px;
+    width: 900px;
+    border-radius: 30px;
+    padding: 40px;
+
+}
+
+.projets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+
+}
+
+.projets-deux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projets-deux img {
+    height: 700px;
+    width: 900px;
+    border-radius: 30px;
+    padding: 40px;
+}
+
+
+
+
+
+kidlingo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+
+.kidlingo h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 30px;
+    font-size: 35px;
+
+}
+
+.kidlingo img {
+    border-radius: 30px;
+
+}
+
+
+.kidlingo img:hover {
+    opacity: 0.3;
+    cursor: pointer;
+
+}

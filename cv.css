@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000000;
+}
+
+.cv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv img {
+    height: 100vh;
+
+}
